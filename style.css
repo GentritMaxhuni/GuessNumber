@@ -1,0 +1,47 @@
+body {
+  background-color: lightcyan;
+}
+/* 
+#formId {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.numberInput {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.numberInput:focus {
+  outline: none;
+}
+
+button {
+  display: block;
+  margin: auto;
+  background-color: rebeccapurple;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#divId {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
